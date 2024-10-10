@@ -58,8 +58,8 @@ class Bank(bankaccount,AccountManagement):
 
 bank = Bank()
 
-account1 = bankaccount('1002563','Akshay',10000)
-account2 = bankaccount('1125687','Arjun',80000)
+account1 = bankaccount('1002563','Krishna',10000)
+account2 = bankaccount('1125687','Sunny',80000)
 
 bank.addaccount(account1)
 bank.addaccount(account2)
