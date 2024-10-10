@@ -70,7 +70,7 @@ print(account2.checkbalance())
 account1.deposit(1000)
 account2.deposit(2500)
 
-bank.updateaccount('1002563',name="Abhi",deposit=2500)
+bank.updateaccount('1002563',name="Dhruvin",deposit=2500)
 bank.deleteaccount('456')
 
 account = bank.getaccount('1002563')
