@@ -1,5 +1,5 @@
 class bankaccount:
-    interestrate = 6.5
+    interestrate = 10.5
     
     def __init__(self,accountnumber,name,deposit):
         self.accountnumber = accountnumber
